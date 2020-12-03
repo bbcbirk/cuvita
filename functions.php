@@ -13,7 +13,6 @@ require get_template_directory() . '/inc/custom-post-type.php';
 require get_template_directory() . '/inc/function-helper.php';
 require get_template_directory() . '/inc/shortcodes.php';
 require get_template_directory() . '/inc/ajax.php';
-//require get_template_directory() . '/inc/generate-pdf.php'; NOT READY
 
 function cuvita_setup () {
 	flush_rewrite_rules();
