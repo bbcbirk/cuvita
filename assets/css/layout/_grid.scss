@@ -1,0 +1,14 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+
+#site-footer {
+    grid-row-start: 3;
+    grid-row-end: -1;
+}

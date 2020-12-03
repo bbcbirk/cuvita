@@ -1,0 +1,39 @@
+#cuvitaContactForm {
+    max-width: 500px;
+
+    > div {
+        margin-bottom: 1em;
+    }
+
+    input, textarea, button {
+        width: 100%;
+    }
+    input {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+    }
+    label {
+        display: block;
+    }
+
+    button[type="submit"] {
+        padding: 0.5em 1.5em;
+
+        background-color: $color__main;
+        color: $color__light-shade;
+        border: none;
+        transition: background-color 0.3s;
+
+        &:hover {
+            background-color: $color__dark-shade;
+        }
+    }
+
+    .notice {
+        font-size: 0.9em;
+        font-style: italic;
+        .notice-success {
+            color: green;
+        }
+    } 
+}

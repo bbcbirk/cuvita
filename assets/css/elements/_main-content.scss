@@ -1,0 +1,104 @@
+#main-content, #comment-content {
+    position: relative;
+    padding: 5em 0;
+
+    .portfolio-container {
+        width: 100%;
+        display: grid;
+        justify-content: center; 
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        @media screen and (min-width: 400px) {
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        }
+        @media screen and (min-width: 800px) {
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        }
+        gap: 2rem;
+
+        .pagination-container {
+            grid-column: 1 / -1;
+            text-align: center;
+        }
+    }
+
+    &.not-singular {
+        
+        .width-container {
+            width: 100vw;
+            display: grid;
+            justify-content: center; 
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            @media screen and (min-width: 400px) {
+                grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            }
+            @media screen and (min-width: 800px) {
+                grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            }
+            gap: 2rem;
+        }
+
+        .pagination-container {
+            grid-column: 1 / -1;
+            text-align: center;
+            margin-top: 2em;
+
+            > * {
+                color: $color__main;
+            }
+
+            a {
+                text-decoration: none;
+                transition: color 0.2s;
+
+                &:hover {
+                    color: $color__dark_accent;
+                }
+            }
+
+            .current {
+                font-weight: 700;
+                color: $color__dark_accent;
+                border-bottom: 1px solid;
+            }
+
+            .page-numbers {
+                margin-right: 1em;
+                margin-left: 1em;
+            }
+            
+        }
+
+        
+    }
+
+    .post-nav-links {
+        text-align: center;
+        margin-top: 2em;
+        color: $color__main;
+
+        > * {
+            color: $color__main;
+        }
+
+        a {
+            text-decoration: none;
+            transition: color 0.2s;
+
+            &:hover {
+                color: $color__dark_accent;
+            }
+        }
+
+        .current {
+            font-weight: 700;
+            color: $color__dark_accent;
+            border-bottom: 1px solid;
+        }
+
+        .post-page-numbers {
+            margin-right: 1em;
+            margin-left: 1em;
+        }
+    }
+    
+}

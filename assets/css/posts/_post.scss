@@ -1,0 +1,128 @@
+.post-container {
+    &.not-single {
+        width: 100%;
+        padding-bottom: 100%;
+        position: relative;
+
+        &:hover {
+            .post-thumbnail {
+                filter: brightness(30%);
+                &.img-greyed {
+                    filter: brightness(30%) grayscale(100%);
+                }
+            }
+
+            .post-content {
+                opacity: 1;
+            }
+        }
+
+        .post-thumbnail {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: brightness(30%);
+            transition: filter 0.5s;
+
+            @media screen and (min-width: 800px) {
+                filter: brightness(75%);
+            }
+
+            &.img-greyed {
+                filter: brightness(30%) grayscale(100%);
+                @media screen and (min-width: 800px) {
+                    filter: brightness(75%) grayscale(100%);
+                }
+            }
+        }
+
+        .post-content {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: opacity 0.5s;
+            display: flex;
+            opacity: 1;
+            @media screen and (min-width: 800px) {
+                opacity: 0;
+            }
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+        }
+
+        .post-title {
+            @include bold_sans-serif;
+            margin: 0 0 1rem 0;
+            font-size: 1.5rem;
+        }
+
+        .post-tagline {
+            font-size: 0.8em;
+            margin: 0;
+            @include italic-serif;
+
+        }
+    } 
+}
+
+.post-meta {
+
+    font-size: 0.8em;
+    margin-bottom: 2.5em;
+
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    * {
+        color: $color__main;
+        text-decoration: none;
+    }
+
+    a {
+        opacity: 1;
+        transition: opacity 0.2s;
+
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+
+    .time, a[rel="author"], .cats, .tags, .techs {
+        margin-right: 2em;
+        &::before {
+            font-family: "dashicons";
+            margin-right: 0.5em;
+        }
+    }
+
+    .time::before {
+        content: "\f508";
+    }
+
+    a[rel="author"]::before {
+        content: "\f110";
+    }
+
+    .cats::before {
+        content: "\f318";
+    }
+
+    .tags::before {
+        content: "\f323";
+    }
+
+    .techs::before {
+        content: "\f14b";
+    }
+
+}

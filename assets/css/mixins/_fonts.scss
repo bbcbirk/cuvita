@@ -1,0 +1,38 @@
+@mixin bold_sans-serif {
+    font-family: $font_sans-serif;  
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+@mixin sans-serif {
+    font-family: $font_sans-serif;
+    font-weight: 400;   
+}
+
+
+
+@mixin link-btn_sans-serif {
+    font-family: $font_sans-serif;  
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    text-decoration: none;
+    font-weight: 400; 
+}
+
+@mixin link_sans-serif {
+    font-family: $font_sans-serif;  
+    text-decoration: none;
+    font-weight: 400; 
+}
+
+@mixin italic-serif {
+    font-family: $font_serif;  
+    font-style: italic;
+    letter-spacing: 0.05em;
+    font-weight: 400; 
+}
+
+@mixin serif {
+    font-family: $font_serif;
+    font-weight: 400;  
+}

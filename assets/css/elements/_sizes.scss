@@ -1,0 +1,18 @@
+html {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 1.8rem;
+    @media screen and (min-width: 800px) {
+        font-size: 4.5rem;
+    }
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+}

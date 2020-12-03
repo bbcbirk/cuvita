@@ -1,0 +1,106 @@
+#gallery-new {
+    margin: auto;
+}
+
+#gallery-new .gallery-item {
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+    width: 25%;
+}
+
+#gallery-new img {
+    border: 2px solid #cfcfcf;
+}
+
+#gallery-new .gallery-caption {
+    margin-left: 0;
+}
+
+#cuvita_project_settings.postbox {
+    .upload-custom-gal {
+        display: inline-block;
+    }
+
+    .delete-custom-gal {
+        display: inline-block;
+
+        &.empty-gal {
+            display: none;
+        }
+    }
+
+    .gallery_buttons {
+        display: block;
+        
+        &.empty-gal {
+            display: none;
+        }
+    }
+}
+
+
+.gallery  {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    @media screen and (min-width: 600px) {
+        &.gallery-columns-3 .gallery-item {
+            width:calc(33% - 10.66667px) !important;
+            margin-right: 16px
+        }
+        &.gallery-columns-4 .gallery-item {
+            width: calc(24% - 12px) !important;
+                margin-right: 16px
+        }
+        &.gallery-columns-5 .gallery-item {
+            width: calc(19% - 12.8px) !important;
+            margin-right: 16px
+        }
+        &.gallery-columns-6 .gallery-item {
+            width: calc(16% - 13.33333px) !important;
+            margin-right: 16px
+        }
+        &.gallery-columns-7 .gallery-item {
+            width: calc(14% - 13.71429px) !important;
+            margin-right: 16px
+        }
+        &.gallery-columns-8 .gallery-item {
+            width: calc(12% - 14px) !important;
+            margin-right: 16px
+        }
+    }
+
+    .gallery-item {
+        width: calc(50% - 16px);
+        margin: 0 16px 16px 0;
+        display: flex;
+        flex-grow: 1;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+
+        .gallery-icon {
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-start;
+            margin: 0;
+            height: 100%;
+        }
+
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            width: 100%;
+            height: 100%;
+            flex: 1;
+            object-fit: cover;
+
+            border: none !important;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+/*-------------------------------------------------------
+## Elements
+---------------------------------------------------------*/
+body {
+    @include sans-serif;
+    line-height: 1.8em;
+    color: $color__main;
+}
+
+
+@import 'header';
+@import 'banner';
+@import 'main-content';
+@import 'article';
+@import 'contact';
+@import 'wp-elements';
+@import 'footer';
+@import 'sizes';

@@ -1,0 +1,47 @@
+.mobile-menu {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    padding: 1.5em 3em 1.5em 1.5em;
+    position: relative;
+    margin-right: 1.5em;
+
+    .droparrow {
+        position: absolute;
+        right: 0;
+        display: block;
+        height: 2em;
+        width: 2em;
+        background-color: red;
+    }
+
+    .menu-item {
+        a {
+            display: block;
+            font-size: 1.8rem;
+            padding-bottom: 0.7em;
+            color: $color__dark_shade;
+            
+            @include link_sans-serif;
+        }
+
+        &.menu-item-has-children.open {
+
+            border-left: 1px solid $color__dark_shade;
+            
+            > .sub-menu {
+                display: block;
+            }
+        }
+
+        padding-left: 2em;
+    }
+    
+    .sub-menu {
+        display: none;
+        list-style-type: none;
+        padding: 0.5em 0;
+    }
+}

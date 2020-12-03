@@ -1,0 +1,103 @@
+.primary-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    &:hover {
+        .menu-item {
+            opacity: 0.5;
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+
+    .menu-item {
+        transition: opacity 0.3s;
+        a {
+            font-size: 0.8rem;
+            display: block;
+            padding: 0.5em 1.2em;
+            @include link-btn_sans-serif;
+            color: $color__light_shade;
+        }
+        &.menu-item-has-children:hover {
+            > .sub-menu {
+                display: block;
+            }
+        }
+    }
+
+    .sub-menu {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        background-color: rgba(0, 0, 0, 0.2);
+        list-style-type: none;
+        padding: 0.5em 0;
+        width: fit-content;
+
+        .menu-item {
+            margin-top: 0.5em;
+
+            &:last-child {
+                margin-bottom: 0.5em;
+            }
+        }
+
+        .sub-menu {
+            background-color: rgba(0, 0, 0, 0.4);
+            left: 100%;
+            top:0;
+        }
+    }
+}
+
+.test-menu {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    .menu-item {
+        a {
+            font-size: 0.8rem;
+            display: block;
+            padding: 0.5em 1.2em;
+            @include link-btn_sans-serif;
+            color: $color__dark_shade;
+
+            transition: opacity 0.3s;
+        }
+
+        &.menu-item-has-children:hover {
+            > .sub-menu {
+                display: block;
+            }
+        }
+    }
+
+    .sub-menu {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        background-color: gold;
+        list-style-type: none;
+        padding: 0.5em 1.2em;
+        width: fit-content;
+
+        .sub-menu {
+            background-color: green;
+            left: 100%;
+            top:0;
+        }
+    }
+}

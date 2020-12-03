@@ -1,0 +1,124 @@
+#site-header {
+    .mobile-header {
+        line-height: normal;
+        width: 100%;
+        padding: 1em 1.5em;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        background-color: $color__light_shade;
+
+        @media screen and (min-width: 800px) {
+            display: none;
+        }
+
+
+        .logo-container {
+            grid-column: 2 / span 1;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .mobile-logo {
+                max-height: 3rem;
+            }
+        }
+
+        .mobile-overlay {
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            left: -99999px;
+            overflow-x: hidden;
+            color: $color__dark_shade;
+            transition: left 0s 525ms, background-color 350ms cubic-bezier(.55, 0, .1, 1) 175ms;
+                        
+            &.active {
+                left: 0;
+                background-color: $color__light_shade;
+                transition: left 0s, background-color 350ms cubic-bezier(.55, 0, .1, 1);
+
+                .mobile-overlay-menu {
+                    transform: translate3d(0,0,0);
+                    transition: transform 350ms cubic-bezier(.55, 0, .1, 1);
+                }
+
+                .close-btn {
+                    transform: translate3d(0,0,0);
+                    transition: transform 350ms cubic-bezier(.55, 0, .1, 1);
+                }
+            }
+        }
+
+        .close-btn {
+            position: absolute;
+            right: 1.5rem;
+            font-size: 5rem;
+            transform: translate3d(-100vw,0,0);
+            transition: transform 350ms cubic-bezier(.55, 0, .1, 1) 175ms;
+            color: $color__main;
+        }
+
+        .open-btn {
+            font-size: 2.5rem;
+            grid-column: 3 / -1;
+            text-align: right;
+        }
+    
+        .mobile-overlay-menu {
+            position: relative;
+            top: 7rem;
+            width: 100%;
+            text-align: center;
+            transform: translate3d(-100%,0,0);
+            transition: transform 350ms cubic-bezier(.55, 0, .1, 1) 175ms;
+        }
+    }
+    .primary-header-container {
+        position: relative;
+        max-width: $max-content_width;
+        margin: auto;
+
+        .primary-header {
+            line-height: normal;
+            width: 100%;
+            display: none;
+            @media screen and (min-width: 800px) {
+                display: grid;
+            }
+            grid-template-columns: 1fr 9fr;
+            background-color: transparent;
+            position: absolute;
+            top: 0;
+            z-index: 1;
+            padding: 1em 1.5em;
+
+            
+
+
+            .logo-container {
+                grid-column: 1 / span 1;
+                text-align: right;
+                display: flex;
+                justify-content: right;
+                align-items: center;
+
+                .mobile-logo {
+                    max-height: 3rem;
+
+                    @media screen and (min-width: 800px) {
+                        max-height: 4.5rem;
+                    }
+                }
+            }
+
+            .primary-menu.container {
+                grid-column: 2 / -1;
+            }
+        }
+    }
+}
+  
+

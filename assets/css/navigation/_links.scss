@@ -1,0 +1,42 @@
+.link-btn {
+    border: 2px solid;
+    padding: 1em 1.75em;
+    display: block;
+    width: fit-content;
+    max-width: 100%;
+
+    @include link-btn_sans-serif;
+
+    transition: 0.3s;
+
+    &.center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    &.color__light_shade:hover {
+        background-color: $color__light_shade;
+        border-color: $color__light_shade;
+        color: $color__dark_shade;
+    }
+    &.color__light_accent:hover {
+        background-color: $color__light_accent;
+        border-color: $color__light_accent;
+        color: $color__dark_accent;
+    }
+    &.color__main:hover {
+        background-color: $color__main;
+        border-color: $color__main;
+        color: $color__dark_accent;
+    }
+    &.color__dark_accent:hover {
+        background-color: $color__dark_accent;
+        border-color: $color__dark_accent;
+        color: $color__light_accent;
+    }
+    &.color__dark_shade:hover {
+        background-color:  $color__dark_shade;
+        border-color:  $color__dark_shade;
+        color: $color__light_shade;
+    }
+}
