@@ -1,0 +1,947 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cuvita\n"
+"POT-Creation-Date: 2020-12-03 22:16+0100\n"
+"PO-Revision-Date: 2020-12-03 22:17+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: da_DK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_ex;_x\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:9
+msgid "Not Found"
+msgstr "Ikke Fundet"
+
+#: 404.php:15
+msgid "This is somewhat embarrassing, isn’t it?"
+msgstr "Dette er noget pinligt, er det ikke?"
+
+#: 404.php:16
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+"Det ser ud til, at der ikke blev fundet noget på dette sted. Måske kan du "
+"prøve en søgning?"
+
+#: archive.php:24
+msgid "Archive"
+msgstr "Arkiv"
+
+#: archive.php:49 inc/custom-post-type.php:154
+#: inc/shortcodes/shortcode.portfolio.latest.php:30
+#: inc/shortcodes/shortcode.portfolio.php:31 index.php:55 search.php:54
+msgid "See More"
+msgstr "Se Mere"
+
+#: archive.php:63 index.php:69 page.php:63 search.php:68
+#: single-cuvita-portfolio.php:103 single.php:82 singular.php:63
+msgid "Sorry, no posts matched your criteria."
+msgstr "Beklager, ingen indlæg matcher dine kriterier."
+
+#: comments.php:36
+msgid "Comment navigation"
+msgstr "Kommentar navigation"
+
+#: comments.php:37
+msgid "&larr; Older Comments"
+msgstr "&larr; Ældre Kommentarer"
+
+#: comments.php:38
+msgid "Newer Comments &rarr;"
+msgstr "Nyere Kommentarer &rarr;"
+
+#: comments.php:45
+msgid "Comments are closed."
+msgstr "Kommentarer er lukket."
+
+#: footer.php:47
+msgid "Y"
+msgstr "Y"
+
+#: footer.php:53
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: footer.php:54
+msgid "Powered by WordPress"
+msgstr "Drevet af WordPress"
+
+#: inc/custom-post-type.php:45 inc/custom-post-type.php:66
+#: inc/custom-post-type.php:78
+msgid "Portfolio"
+msgstr "Portefølje"
+
+#: inc/custom-post-type.php:46 inc/custom-post-type.php:70
+msgid "Project"
+msgstr "Projekt"
+
+#: inc/custom-post-type.php:47
+msgid "Add new"
+msgstr "Tilføj ny"
+
+#: inc/custom-post-type.php:48
+msgid "Add new project"
+msgstr "Tilføj nyt projekt"
+
+#: inc/custom-post-type.php:49
+msgid "Edit project"
+msgstr "Rediger projekt"
+
+#: inc/custom-post-type.php:50
+msgid "New project"
+msgstr "Nyt projekt"
+
+#: inc/custom-post-type.php:51
+msgid "Show project"
+msgstr "Vis projekt"
+
+#: inc/custom-post-type.php:52
+msgid "Show projects"
+msgstr "Vis projekter"
+
+#: inc/custom-post-type.php:53
+msgid "Search in portfolio"
+msgstr "Søg i portefølje"
+
+#: inc/custom-post-type.php:54
+msgid "No projects found."
+msgstr "Ingen projekter fundet."
+
+#: inc/custom-post-type.php:55
+msgid "No projects found in trash."
+msgstr "Ingen projekter fundet i papirkurven."
+
+#: inc/custom-post-type.php:56
+msgid "Parent project"
+msgstr "Forældreprojekt"
+
+#: inc/custom-post-type.php:57
+msgid "All projects"
+msgstr "Alle projekter"
+
+#: inc/custom-post-type.php:58
+msgid "Project Archives"
+msgstr "Projektarkiver"
+
+#: inc/custom-post-type.php:59
+msgid "Project Attributes"
+msgstr "Projektattributter"
+
+#: inc/custom-post-type.php:60
+msgid "Insert into project"
+msgstr "Indsæt i projektet"
+
+#: inc/custom-post-type.php:61
+msgid "Uploaded to this project"
+msgstr "Uploadet til dette projekt"
+
+#: inc/custom-post-type.php:62
+msgid "Project Banner Image"
+msgstr "Projekt Bannerbillede"
+
+#: inc/custom-post-type.php:63
+msgid "Set banner image"
+msgstr "Indstil bannerbillede"
+
+#: inc/custom-post-type.php:64
+msgid "Remove banner image"
+msgstr "Fjern bannerbillede"
+
+#: inc/custom-post-type.php:65
+msgid "Use as banner image"
+msgstr "Brug som bannerbillede"
+
+#: inc/custom-post-type.php:67
+msgid "Filter portfolio list"
+msgstr "Filtrer porteføljelisten"
+
+#: inc/custom-post-type.php:68
+msgid "Portfolio list navigation"
+msgstr "Porteføljeliste navigation"
+
+#: inc/custom-post-type.php:69
+msgid "Portfolio list"
+msgstr "Porteføljeliste"
+
+#: inc/custom-post-type.php:71
+msgid "Project published."
+msgstr "Projekt offentliggjort."
+
+#: inc/custom-post-type.php:72
+msgid "Project published privately."
+msgstr "Projekt offentliggjort privat."
+
+#: inc/custom-post-type.php:73
+msgid "Project reverted to draft."
+msgstr "Projektet vendt til kladde."
+
+#: inc/custom-post-type.php:74
+msgid "Project scheduled."
+msgstr "Projekt planlagt."
+
+#: inc/custom-post-type.php:75
+msgid "Project updated."
+msgstr "Projekt opdateret."
+
+#: inc/custom-post-type.php:80
+msgid "Portfolio CPT"
+msgstr "Portefølje CPT"
+
+#: inc/custom-post-type.php:104 inc/custom-post-type.php:106
+msgid "Messages"
+msgstr "Beskeder"
+
+#: inc/custom-post-type.php:105 inc/custom-post-type.php:107
+#: inc/custom-post-type.php:212
+msgid "Message"
+msgstr "Besked"
+
+#: inc/custom-post-type.php:135
+msgid "Tags / Technologies"
+msgstr "Tags / Teknologier"
+
+#: inc/custom-post-type.php:202
+msgid "&#8212;"
+msgstr "&#8212;"
+
+#: inc/custom-post-type.php:211
+msgid "Full Name"
+msgstr "Fulde Navn"
+
+#: inc/custom-post-type.php:213
+msgid "E-mail"
+msgstr "E-mail"
+
+#: inc/custom-post-type.php:214
+msgid "Date"
+msgstr "Dato"
+
+#: inc/custom-post-type.php:244
+msgid "Tagline"
+msgstr "Tagline"
+
+#: inc/custom-post-type.php:257
+msgid "Project Meta Settings"
+msgstr "Projekt Meta Indstillinger"
+
+#: inc/custom-post-type.php:265
+msgid "User Email"
+msgstr "Bruger E-mail"
+
+#: inc/custom-post-type.php:292
+msgid "Web Link"
+msgstr "Weblink"
+
+#: inc/custom-post-type.php:305
+msgid "Project Gallery"
+msgstr "Projekt Galleri"
+
+#: inc/custom-post-type.php:308 inc/custom-post-type.php:317
+msgid "Manage gallery"
+msgstr "Administrer galleri"
+
+#: inc/custom-post-type.php:309 inc/custom-post-type.php:318
+msgid "Empty gallery"
+msgstr "Tøm galleri"
+
+#: inc/custom-post-type.php:359
+msgid "Show resume download link"
+msgstr "Vis CV download link"
+
+#: inc/custom-post-type.php:374
+msgid "User Email Address:"
+msgstr "Bruger E-mail Adresse:"
+
+#: inc/custom-post-type.php:475 inc/custom-post-type.php:493
+msgid "Technologies"
+msgstr "Teknologier"
+
+#: inc/custom-post-type.php:476
+msgid "Technology"
+msgstr "Teknologi"
+
+#: inc/custom-post-type.php:477
+msgid "Search technologies"
+msgstr "Søg teknologier"
+
+#: inc/custom-post-type.php:478
+msgid "All technologies"
+msgstr "Alle teknologier"
+
+#: inc/custom-post-type.php:479
+msgid "Edit technology"
+msgstr "Rediger teknologi"
+
+#: inc/custom-post-type.php:480
+msgid "View technology"
+msgstr "Vis teknologi"
+
+#: inc/custom-post-type.php:481
+msgid "Update technology"
+msgstr "Opdater teknologi"
+
+#: inc/custom-post-type.php:482
+msgid "Add new technology"
+msgstr "Tilføj ny teknologi"
+
+#: inc/custom-post-type.php:483
+msgid "New technology name"
+msgstr "Nyt teknologinavn"
+
+#: inc/custom-post-type.php:484
+msgid "Separate technologies with commas"
+msgstr "Adskil teknologier med kommaer"
+
+#: inc/custom-post-type.php:485
+msgid "Add or remove technologies"
+msgstr "Tilføj eller fjern teknologier"
+
+#: inc/custom-post-type.php:486
+msgid "Choose from most used technologies"
+msgstr "Vælg mellem de mest anvendte teknologier"
+
+#: inc/custom-post-type.php:487
+msgid "No technologies found"
+msgstr "Ingen teknologier fundet"
+
+#: inc/custom-post-type.php:488
+msgid "No technologies"
+msgstr "Ingen teknologier"
+
+#: inc/custom-post-type.php:489
+msgid "Technology list navigation"
+msgstr "Teknologi liste navigation"
+
+#: inc/custom-post-type.php:490
+msgid "Technology list"
+msgstr "Teknologi liste"
+
+#: inc/custom-post-type.php:491
+msgid "Most used"
+msgstr "Mest brugt"
+
+#: inc/custom-post-type.php:492
+msgid "Back to technologies"
+msgstr "Tilbage til teknologier"
+
+#: inc/custom-post-type.php:497
+msgid "Technologies used for projects, like WordPress or PHP"
+msgstr "Teknologier, der anvendes til projekter, som WordPress eller PHP"
+
+#: inc/function-admin.php:26 inc/function-admin.php:29
+msgid "Cuvita Theme Options"
+msgstr "Cuvita Tema Indstillinger"
+
+#: inc/function-admin.php:29
+msgid "General"
+msgstr "Generel"
+
+#: inc/function-admin.php:30
+msgid "Cuvita Contact Info"
+msgstr "Cuvita Kontakt Info"
+
+#: inc/function-admin.php:30
+msgid "Contact Info"
+msgstr "Kontaktoplysninger"
+
+#: inc/function-admin.php:37
+msgid "Cuvita Theme Resume"
+msgstr "Cuvita Tema CV"
+
+#: inc/function-admin.php:37 inc/function-admin.php:40
+msgid "Resume"
+msgstr "CV"
+
+#: inc/function-admin.php:40 inc/templates/cuvita-cv-options.php:2
+msgid "Cuvita Resume"
+msgstr "Cuvita CV"
+
+#: inc/function-admin.php:41
+msgid "Cuvita Resume Section Order"
+msgstr "Cuvita CV Sektion Rækkefølge"
+
+#: inc/function-admin.php:41
+msgid "Section Order"
+msgstr "Afsnit Rækkefølge"
+
+#: inc/function-admin.php:74
+msgid "Contact Settings"
+msgstr "Kontakt Indstillinger"
+
+#: inc/function-admin.php:75
+msgid "Social Media Settings"
+msgstr "Indstillinger for Sociale Medier"
+
+#: inc/function-admin.php:77
+msgid "Site Settings"
+msgstr "Websteds Indstillinger"
+
+#: inc/function-admin.php:78
+msgid "Activate Features"
+msgstr "Aktiver Funktioner"
+
+#: inc/function-admin.php:80
+msgid "Facebook Link"
+msgstr "Facebook Link"
+
+#: inc/function-admin.php:81
+msgid "Twitter Link"
+msgstr "Twitter Link"
+
+#: inc/function-admin.php:82
+msgid "LinkedIn Link"
+msgstr "LinkedIn Link"
+
+#: inc/function-admin.php:83
+msgid "Youtube Link"
+msgstr "Youtube Link"
+
+#: inc/function-admin.php:84
+msgid "Instagram Link"
+msgstr "Instagram Link"
+
+#: inc/function-admin.php:85
+msgid "Vimeo Link"
+msgstr "Vimeo Link"
+
+#: inc/function-admin.php:86
+msgid "SoundCloud Link"
+msgstr "SoundCloud Link"
+
+#: inc/function-admin.php:87
+msgid "Twitch Link"
+msgstr "Twitch Link"
+
+#: inc/function-admin.php:88
+msgid "Discord Link"
+msgstr "Discord Link"
+
+#: inc/function-admin.php:89
+msgid "Pinterest Link"
+msgstr "Pinterest Link"
+
+#: inc/function-admin.php:90
+msgid "Tumblr Link"
+msgstr "Tumblr Link"
+
+#: inc/function-admin.php:91
+msgid "Etsy Link"
+msgstr "Etsy Link"
+
+#: inc/function-admin.php:92
+msgid "E-mail Address"
+msgstr "E-mail Adresse"
+
+#: inc/function-admin.php:94
+msgid "Frontpage Banner"
+msgstr "Forside Banner"
+
+#: inc/function-admin.php:95
+msgid "Logo"
+msgstr "Logo"
+
+#: inc/function-admin.php:96
+msgid "Frontpage Tagline"
+msgstr "Forside Tagline"
+
+#: inc/function-admin.php:97
+msgid "Frontpage Title"
+msgstr "Forside Titel"
+
+#: inc/function-admin.php:98
+msgid "Footer Tagline"
+msgstr "Sidefod Tagline"
+
+#: inc/function-admin.php:99
+msgid "Activate Resume"
+msgstr "Aktiver CV"
+
+#: inc/function-admin.php:100
+msgid "Activate Portfolio"
+msgstr "Aktiver Portefølje"
+
+#: inc/function-admin.php:101
+msgid "Activate Technology Tags"
+msgstr "Aktiver Teknologi Tags"
+
+#: inc/function-admin.php:102
+msgid "Activate Contact Form"
+msgstr "Aktiver Kontaktformular"
+
+#: inc/function-admin.php:113
+msgid "Required"
+msgstr "Påkrævet"
+
+#: inc/function-admin.php:114
+msgid "Optional"
+msgstr "Valgfri"
+
+#: inc/function-admin.php:116
+msgid "Sections"
+msgstr "Sektioner"
+
+#: inc/function-admin.php:118 inc/function-admin.php:532
+#: inc/templates/fields/cuvita_cv_sections.php:52
+#: inc/templates/fields/cuvita_cv_sections.php:53
+msgid "Work Experience"
+msgstr "Erhvervserfaring"
+
+#: inc/function-admin.php:119 inc/function-admin.php:499
+#: inc/templates/fields/cuvita_cv_sections.php:69
+#: inc/templates/fields/cuvita_cv_sections.php:70
+msgid "Education"
+msgstr "Uddannelse"
+
+#: inc/function-admin.php:120
+msgid "Other Sections"
+msgstr "Andre Sektioner"
+
+#: inc/function-admin.php:121
+msgid "Resume Upload"
+msgstr "CV Upload"
+
+#: inc/function-admin.php:123
+msgid "Resume Order"
+msgstr "CV Rækkefølge"
+
+#: inc/function-admin.php:152
+msgid ""
+"Cuvita offers you the ability to link to other social-media, where visitors "
+"can find you. Fields that are saved will be displayed in the footer of the "
+"site as an icon."
+msgstr ""
+"Cuvita giver dig mulighed for at linke til andre sociale medier, hvor "
+"besøgende kan finde dig. Felter, der er gemt, vises i sidefoden på siden som "
+"et ikon."
+
+#: inc/function-admin.php:217
+msgid "Settings that will be shown on the site. Above is a preview."
+msgstr "Indstillinger, der vises på siden. Ovenfor er en forhåndsvisning."
+
+#: inc/function-admin.php:225
+msgid "Activate and Deactivate Cuvita Built-in Features"
+msgstr "Aktivér og deaktiver Cuvita's indbyggede funktioner"
+
+#: inc/function-admin.php:234
+msgid ""
+"Work Experience and Education is essential to your resume. Add your "
+"experiences by pressing the buttons and drag the sections to rearrange the "
+"order."
+msgstr ""
+"Erhvervserfaring og uddannelse er afgørende for dit CV. Tilføj dine "
+"erfaringer ved at trykke på knapperne og træk i sektionerne for at "
+"omarrangere rækkefølgen."
+
+#: inc/function-admin.php:242
+msgid ""
+"Here you can add other sections you find nessersary for your resume, like "
+"languages. Add your section and undersections by pressing the buttons and "
+"drag the sections to rearrange the order."
+msgstr ""
+"Her kan du tilføje andre sektioner, som du finder i din CV, f.eks. Sprog. "
+"Tilføj din sektion og undersektioner ved at trykke på knapperne og træk i "
+"sektionerne for at omarrangere rækkefølgen."
+
+#: inc/function-admin.php:250
+msgid "Rearrange the order of the sections in your resume. Use the shortcode"
+msgstr "Omarranger rækkefølgen af sektionerne i dit CV. Brug ShortCode"
+
+#: inc/function-admin.php:252 inc/function-admin.php:409
+msgid "to display the resume, or use"
+msgstr "for at få vist CV, eller brug"
+
+#: inc/function-admin.php:254 inc/function-admin.php:411
+msgid "to display the resume ordered by end-date."
+msgstr "for at få vist CV sorteret efter slutdato."
+
+#: inc/function-admin.php:265
+msgid "your.name"
+msgstr "dit.navn"
+
+#: inc/function-admin.php:270 inc/function-admin.php:285
+#: inc/function-admin.php:300 inc/function-admin.php:305
+#: inc/function-admin.php:310 inc/function-admin.php:320
+msgid "yourhandle"
+msgstr "dithandle"
+
+#: inc/function-admin.php:275
+msgid "your-name"
+msgstr "dit-navn"
+
+#: inc/function-admin.php:280 inc/function-admin.php:290
+msgid "yourid"
+msgstr "ditid"
+
+#: inc/function-admin.php:295 inc/function-admin.php:326
+msgid "yourname"
+msgstr "ditnavn"
+
+#: inc/function-admin.php:315
+msgid "channelid"
+msgstr "kanalid"
+
+#: inc/function-admin.php:327
+msgid ""
+"This address is used to display a mailto link icon in the footer section of "
+"the webpage."
+msgstr ""
+"Denne adresse bruges til at vise et mailto-link ikon i sidefodsektionen på "
+"websiden."
+
+#: inc/function-admin.php:335
+msgid ""
+"The tagline is a great way to invite the reader to the page. Taglines are "
+"also available on post and pages."
+msgstr ""
+"Tagline er en fantastisk måde at invitere læseren til siden. Taglines er "
+"også tilgængelige på indlæg og sider."
+
+#: inc/function-admin.php:343
+msgid ""
+"This title will be used on the blog listing page. If not set, the site title "
+"will be used instead."
+msgstr ""
+"Denne titel vil blive brugt på siden med bloglister. Hvis den ikke er "
+"indstillet, bruges webstedsnavnet i stedet."
+
+#: inc/function-admin.php:352
+msgid "Manage banner"
+msgstr "Administrer banner"
+
+#: inc/function-admin.php:353
+msgid "Empty banner"
+msgstr "Tøm banner"
+
+#: inc/function-admin.php:355
+msgid ""
+"This banner will be used on the blog listing page. If not set, a default "
+"image will be used instead."
+msgstr ""
+"Dette banner vil blive brugt på bloglistesiden. Hvis det ikke er indstillet, "
+"bruges et standardbillede i stedet."
+
+#: inc/function-admin.php:364
+msgid "Manage Logo"
+msgstr "Administrer Logo"
+
+#: inc/function-admin.php:365
+msgid "Empty Logo"
+msgstr "Tøm Logo"
+
+#: inc/function-admin.php:375
+msgid "Get the job done your way."
+msgstr "Få jobbet gjort på din måde."
+
+#: inc/function-admin.php:377
+msgid ""
+"Use a few words to describe the what the site is about. This will be "
+"displayed in the sites footer section."
+msgstr ""
+"Brug et par ord til at beskrive, hvad webstedet handler om. Dette vises i "
+"sidefoden."
+
+#: inc/function-admin.php:380
+msgid ""
+"If not set it will display the Tagline from the General Settings section."
+msgstr ""
+"Hvis ikke indstillet, vises Tagline fra afsnittet Generelle Indstillinger."
+
+#: inc/function-admin.php:393
+msgid "Create a Message Board and use shortcode"
+msgstr "Opret en Besked Opslagstavle, og brug kortkode"
+
+#: inc/function-admin.php:395
+msgid "to display a contact form on your page or post."
+msgstr "for at få vist en kontaktformular på din side eller dit indlæg."
+
+#: inc/function-admin.php:407
+msgid "Create a Resume Form and use shortcode"
+msgstr "Opret en CV-formular og brug kortkode"
+
+#: inc/function-admin.php:423
+msgid "Create a Portfolio Post Type and use shortcode"
+msgstr "Opret en Portefølje Indlægstype, og brug kortkode"
+
+#: inc/function-admin.php:425
+msgid "to display the projects, or use"
+msgstr "for at få vist projekterne, eller brug"
+
+#: inc/function-admin.php:427
+msgid "to display the latest 3."
+msgstr "for at få vist de seneste 3."
+
+#: inc/function-admin.php:439
+msgid "Adding a technology taxonomy."
+msgstr "Tilføjelse af en teknologi taksonomi."
+
+#: inc/function-admin.php:460
+msgid "Manage Resume"
+msgstr "Aktiver CV"
+
+#: inc/function-admin.php:461
+msgid "Remove Resume"
+msgstr "Aktiver CV"
+
+#: inc/function-admin.php:466
+msgid ""
+"Upload your resume, so visitors can download it. Enable download button on "
+"post and pages."
+msgstr ""
+"Upload dit CV, så besøgende kan downloade det. Aktivér download-knappen på "
+"indlæg og sider."
+
+#: inc/shortcodes/shortcode.contact.php:3
+msgid "Your Name"
+msgstr "Dit Navn"
+
+#: inc/shortcodes/shortcode.contact.php:4
+msgid "John Doe"
+msgstr "John Doe"
+
+#: inc/shortcodes/shortcode.contact.php:7
+msgid "Your E-mail"
+msgstr "Din E-mail"
+
+#: inc/shortcodes/shortcode.contact.php:8
+msgid "johndoe@mail.com"
+msgstr "johndoe@mail.com"
+
+#: inc/shortcodes/shortcode.contact.php:11
+msgid "Your Message"
+msgstr "Din Besked"
+
+#: inc/shortcodes/shortcode.contact.php:15
+msgid "Submit"
+msgstr "Indsend"
+
+#: inc/templates/cuvita-admin-options-contact.php:2
+msgid "Contact Info Settings"
+msgstr "Kontaktoplysninger Indstillinger"
+
+#: inc/templates/cuvita-admin-options.php:2
+msgid "Cuvita General Settings"
+msgstr "Cuvita Generelle Indstillinger"
+
+#: inc/templates/cuvita-cv-sectionorder.php:2
+msgid "Cuvita Resume Order"
+msgstr "Cuvita CV Rækkefølge"
+
+#: inc/templates/fields/cuvita_cv_education.php:16
+msgid "Add New Education:"
+msgstr "Tilføj ny uddannelse:"
+
+#: inc/templates/fields/cuvita_cv_education.php:37
+#: inc/templates/fields/cuvita_cv_education.php:49
+#: inc/templates/fields/cuvita_cv_other.php:56
+#: inc/templates/fields/cuvita_cv_other.php:68
+#: inc/templates/fields/cuvita_cv_other.php:90
+#: inc/templates/fields/cuvita_cv_other.php:119
+#: inc/templates/fields/cuvita_cv_other.php:142
+#: inc/templates/fields/cuvita_cv_other.php:165
+#: inc/templates/fields/cuvita_cv_work.php:36
+#: inc/templates/fields/cuvita_cv_work.php:48
+msgid "Title"
+msgstr "Titel"
+
+#: inc/templates/fields/cuvita_cv_education.php:38
+#: inc/templates/fields/cuvita_cv_other.php:57
+#: inc/templates/fields/cuvita_cv_other.php:91
+#: inc/templates/fields/cuvita_cv_work.php:37
+msgid "Hidden"
+msgstr "Skjult"
+
+#: inc/templates/fields/cuvita_cv_education.php:45
+#: inc/templates/fields/cuvita_cv_other.php:64
+#: inc/templates/fields/cuvita_cv_other.php:98
+#: inc/templates/fields/cuvita_cv_work.php:44
+msgid "Hide on site."
+msgstr "Skjul for siden."
+
+#: inc/templates/fields/cuvita_cv_education.php:48
+msgid "Title:"
+msgstr "Titel:"
+
+#: inc/templates/fields/cuvita_cv_education.php:52
+msgid "School:"
+msgstr "Skole:"
+
+#: inc/templates/fields/cuvita_cv_education.php:53
+msgid "School"
+msgstr "Skole"
+
+#: inc/templates/fields/cuvita_cv_education.php:56
+#: inc/templates/fields/cuvita_cv_work.php:59
+msgid "City:"
+msgstr "By:"
+
+#: inc/templates/fields/cuvita_cv_education.php:57
+#: inc/templates/fields/cuvita_cv_work.php:60
+msgid "City"
+msgstr "By"
+
+#: inc/templates/fields/cuvita_cv_education.php:61
+msgid "I'm currently studying here."
+msgstr "Jeg er i øjeblikket studerende her."
+
+#: inc/templates/fields/cuvita_cv_education.php:66
+#: inc/templates/fields/cuvita_cv_work.php:69
+msgid "Startdate:"
+msgstr "Start dato:"
+
+#: inc/templates/fields/cuvita_cv_education.php:70
+#: inc/templates/fields/cuvita_cv_work.php:73
+msgid "Enddate:"
+msgstr "Slut dato:"
+
+#: inc/templates/fields/cuvita_cv_education.php:72
+#: inc/templates/fields/cuvita_cv_work.php:75
+msgid "Now"
+msgstr "Nu"
+
+#: inc/templates/fields/cuvita_cv_education.php:77
+#: inc/templates/fields/cuvita_cv_other.php:122
+#: inc/templates/fields/cuvita_cv_other.php:145
+#: inc/templates/fields/cuvita_cv_other.php:168
+#: inc/templates/fields/cuvita_cv_work.php:80
+msgid "Description:"
+msgstr "Beskrivelse:"
+
+#: inc/templates/fields/cuvita_cv_education.php:81
+msgid "Delete"
+msgstr "Slet"
+
+#: inc/templates/fields/cuvita_cv_other.php:26
+msgid "Add New Section"
+msgstr "Tilføj ny sektion"
+
+#: inc/templates/fields/cuvita_cv_other.php:67
+msgid "Section Title:"
+msgstr "Sektion Titel:"
+
+#: inc/templates/fields/cuvita_cv_other.php:71
+msgid "Add New Subsection"
+msgstr "Tilføj nyt undersektion"
+
+#: inc/templates/fields/cuvita_cv_other.php:89
+msgid "Subsection:"
+msgstr "Undersektion:"
+
+#: inc/templates/fields/cuvita_cv_other.php:103
+msgid "1 Column Layout"
+msgstr "1 Kolonne Layout"
+
+#: inc/templates/fields/cuvita_cv_other.php:108
+msgid "2 Column Layout"
+msgstr "2 Kolonne Layout"
+
+#: inc/templates/fields/cuvita_cv_other.php:113
+msgid "3 Column Layout"
+msgstr "3 Kolonne Layout"
+
+#: inc/templates/fields/cuvita_cv_other.php:118
+#: inc/templates/fields/cuvita_cv_other.php:141
+#: inc/templates/fields/cuvita_cv_other.php:164
+msgid "Subsection Title:"
+msgstr "Undersektion Titel:"
+
+#: inc/templates/fields/cuvita_cv_other.php:185
+msgid "Delete Subsection"
+msgstr "Slet Undersektion"
+
+#: inc/templates/fields/cuvita_cv_other.php:194
+msgid "Delete Section"
+msgstr "Slet Sektion"
+
+#: inc/templates/fields/cuvita_cv_work.php:17
+msgid "Add New Work"
+msgstr "Tilføj nyt arbejde"
+
+#: inc/templates/fields/cuvita_cv_work.php:47
+msgid "Job Title:"
+msgstr "Jobtitel:"
+
+#: inc/templates/fields/cuvita_cv_work.php:51
+msgid "Employer:"
+msgstr "Arbejdsgiver:"
+
+#: inc/templates/fields/cuvita_cv_work.php:52
+msgid "Employer"
+msgstr "Arbejdsgiver"
+
+#: inc/templates/fields/cuvita_cv_work.php:55
+msgid "Employer Website:"
+msgstr "Arbejdsgiver websted:"
+
+#: inc/templates/fields/cuvita_cv_work.php:56
+msgid "Link to Website"
+msgstr "Link til websted"
+
+#: inc/templates/fields/cuvita_cv_work.php:64
+msgid "I'm currently working here."
+msgstr "Jeg arbejder i øjeblikket her."
+
+#: inc/templates/fields/cuvita_cv_work.php:84
+msgid "Delete:"
+msgstr "Slet:"
+
+#: inc/theme-support.php:30
+msgid "Desktop Horizontal Menu"
+msgstr "Desktop Vandret Menu"
+
+#: inc/theme-support.php:31
+msgid "Mobile Menu"
+msgstr "Mobil Menu"
+
+#: inc/theme-support.php:32
+msgid "Footer Menu"
+msgstr "Fodmenu"
+
+#: page.php:27 single-cuvita-portfolio.php:27 single.php:27 singular.php:27
+msgid "Download Resume"
+msgstr "Download CV"
+
+#: page.php:39 single-cuvita-portfolio.php:38 single.php:58 singular.php:39
+msgid "Continue reading"
+msgstr "Fortsæt med at læse"
+
+#: search.php:27
+msgid " and Projects"
+msgstr " og projekter"
+
+#: search.php:29
+msgid "Found "
+msgstr "Fandt"
+
+#: search.php:29
+msgid " result(s) in Post, Pages"
+msgstr " resultat(er) i Indlæg, Sider "
+
+#: single-cuvita-portfolio.php:49
+msgid "Visit Site"
+msgstr "Besøg Siden"
+
+#: single-cuvita-portfolio.php:56
+msgid "Technologies Used"
+msgstr "Teknologier Brugt"
+
+#: single.php:40
+msgid "Posted on"
+msgstr "Opslået "
+
+#: single.php:44
+msgid "Posted in"
+msgstr "Opslået i"
+
+#, fuzzy
+#~ msgid "Manage CV"
+#~ msgstr "Administrer CV"
+
+#, fuzzy
+#~ msgid "Remove CV"
+#~ msgstr "Fjern CV"
