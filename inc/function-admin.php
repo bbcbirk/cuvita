@@ -23,22 +23,22 @@ function cuvita_add_admin_page() {
     add_admin_menu_separator(39);
 
     //Generate Cuvita Option Admin Page
-    add_menu_page(__( 'Cuvita Theme Options', 'cuvita' ), 'Cuvita', 'manage_options', 'cuvita_options', 'cuvita_theme_options_page', get_template_directory_uri().'/assets/images/Cuvita_Logo_icon.svg', 42);
+    add_menu_page(__( 'Cuvita Theme Options', 'cuvita' ), 'Cuvita', 'edit_pages', 'cuvita_options', 'cuvita_theme_options_page', get_template_directory_uri().'/assets/images/Cuvita_Logo_icon.svg', 42);
 
     //Generate Cuvita Option Admin Sub Pages
-    add_submenu_page('cuvita_options', __( 'Cuvita Theme Options', 'cuvita' ), __( 'General', 'cuvita' ), 'manage_options', 'cuvita_options', 'cuvita_theme_options_page');
-    add_submenu_page('cuvita_options', __( 'Cuvita Contact Info', 'cuvita' ), __( 'Contact Info', 'cuvita' ), 'manage_options', 'cuvita_options_contact', 'cuvita_theme_options_contact_page');
+    add_submenu_page('cuvita_options', __( 'Cuvita Theme Options', 'cuvita' ), __( 'General', 'cuvita' ), 'edit_pages', 'cuvita_options', 'cuvita_theme_options_page');
+    add_submenu_page('cuvita_options', __( 'Cuvita Contact Info', 'cuvita' ), __( 'Contact Info', 'cuvita' ), 'edit_pages', 'cuvita_options_contact', 'cuvita_theme_options_contact_page');
     
 }
 
 function cuvita_add_cv_page() {
 
     //Generate Cuvita CV Admin Page
-    add_menu_page(__( 'Cuvita Theme Resume', 'cuvita' ), __( 'Resume', 'cuvita' ), 'manage_options', 'cuvita_cv', 'cuvita_theme_cv_page', 'dashicons-media-document', 41);
+    add_menu_page(__( 'Cuvita Theme Resume', 'cuvita' ), __( 'Resume', 'cuvita' ), 'edit_pages', 'cuvita_cv', 'cuvita_theme_cv_page', 'dashicons-media-document', 41);
 
     //Generate Cuvita CV Admin Sub Pages
-    add_submenu_page('cuvita_cv', __( 'Cuvita Resume', 'cuvita' ), __( 'Resume', 'cuvita' ), 'manage_options', 'cuvita_cv', 'cuvita_theme_cv_page');
-    add_submenu_page('cuvita_cv', __( 'Cuvita Resume Section Order', 'cuvita' ), __( 'Section Order', 'cuvita' ), 'manage_options', 'cuvita_theme_cv_sectionorder', 'cuvita_theme_cv_sectionorder_page');
+    add_submenu_page('cuvita_cv', __( 'Cuvita Resume', 'cuvita' ), __( 'Resume', 'cuvita' ), 'edit_pages', 'cuvita_cv', 'cuvita_theme_cv_page');
+    add_submenu_page('cuvita_cv', __( 'Cuvita Resume Section Order', 'cuvita' ), __( 'Section Order', 'cuvita' ), 'edit_pages', 'cuvita_theme_cv_sectionorder', 'cuvita_theme_cv_sectionorder_page');
 }
 
 
