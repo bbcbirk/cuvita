@@ -137,6 +137,11 @@
         right: 5%;
         width: 90%;
 
+        .wp-block-group__inner-container {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
         &.wp-block-embed {
             position: relative;
             left: 0;
@@ -177,6 +182,11 @@
         position: absolute;
         left: 0;
         right: 0;
+
+        .wp-block-group__inner-container {
+            margin-left: auto;
+            margin-right: auto;
+        }
 
         &.wp-block-embed {
             position: relative;
@@ -255,6 +265,11 @@
 
     .has-text-align-center {
         + #cuvitaContactForm {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        &.link-btn {
             margin-left: auto;
             margin-right: auto;
         }

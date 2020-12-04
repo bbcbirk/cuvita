@@ -1390,6 +1390,11 @@ body {
   width: 90%;
 }
 
+.post .alignwide .wp-block-group__inner-container, .page .alignwide .wp-block-group__inner-container, .cuvita-portfolio .alignwide .wp-block-group__inner-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .post .alignwide.wp-block-embed, .page .alignwide.wp-block-embed, .cuvita-portfolio .alignwide.wp-block-embed {
   position: relative;
   left: 0;
@@ -1426,6 +1431,11 @@ body {
   position: absolute;
   left: 0;
   right: 0;
+}
+
+.post .alignfull .wp-block-group__inner-container, .page .alignfull .wp-block-group__inner-container, .cuvita-portfolio .alignfull .wp-block-group__inner-container {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .post .alignfull.wp-block-embed, .page .alignfull.wp-block-embed, .cuvita-portfolio .alignfull.wp-block-embed {
@@ -1508,6 +1518,11 @@ body {
 }
 
 .post .has-text-align-center + #cuvitaContactForm, .page .has-text-align-center + #cuvitaContactForm, .cuvita-portfolio .has-text-align-center + #cuvitaContactForm {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post .has-text-align-center.link-btn, .page .has-text-align-center.link-btn, .cuvita-portfolio .has-text-align-center.link-btn {
   margin-left: auto;
   margin-right: auto;
 }
