@@ -108,7 +108,7 @@ jQuery(function ($) {
             var attachment = logo_frame.state().get('selection').first().toJSON();
 
             // Send the attachment URL to our custom image input field.
-            logo_imgContainer.append('<img src="' + attachment.url + '" alt="" class="mobile-logo"/>');
+            logo_imgContainer.html('<img src="' + attachment.url + '" alt="" class="mobile-logo"/>');
 
             // Send the attachment id to our hidden input
             logo_imgIdInput.val(attachment.id);
@@ -219,6 +219,13 @@ jQuery(function ($) {
         // Delete the image id from the hidden input
         cvIdInput.val('');
 
+    });
+
+    $('#cuvita_frontpage_title').on('input', function(){
+        $('h1.banner-title').html($(this).val());
+    });
+    $('#cuvita_frontpage_tagline').on('input', function(){
+        $('h1.banner-tagline').html($(this).val());
     });
 
 });
