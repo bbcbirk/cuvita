@@ -224,8 +224,9 @@ jQuery(function ($) {
     $('#cuvita_frontpage_title').on('input', function(){
         $('h1.banner-title').html($(this).val());
     });
+
     $('#cuvita_frontpage_tagline').on('input', function(){
-        $('h1.banner-tagline').html($(this).val());
+        $('h3.banner-tagline').html($(this).val());
     });
 
 });
