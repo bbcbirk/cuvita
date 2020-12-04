@@ -262,6 +262,20 @@ body {
   opacity: 0.5;
 }
 
+.footer-social-nav a {
+  text-decoration: none;
+  color: white;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  font-size: 1.2em;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+
+.footer-social-nav a:hover {
+  opacity: 0.5;
+}
+
 .mobile-menu {
   list-style-type: none;
   margin: 0;
@@ -1073,11 +1087,20 @@ body {
   font-weight: 700;
   margin: 0;
   line-height: 1em;
+  max-width: 1024px;
 }
 
 #main-content, #comment-content {
   position: relative;
   padding: 5em 0;
+  /*
+    > *:first-child:not(.alignfull) {
+        margin-top: 5em;
+    }
+
+    > *:last-child:not(.alignfull) {
+        margin-bottom: 5em;
+    }*/
 }
 
 #main-content .portfolio-container, #comment-content .portfolio-container {

@@ -22,3 +22,15 @@
         }
     }
 }
+
+.footer-social-nav a {
+    text-decoration: none;
+    color: white;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    font-size: 1.2em;
+    transition: opacity 0.3s;
+    &:hover {
+        opacity: 0.5;
+    }
+}
