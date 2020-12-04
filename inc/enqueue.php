@@ -19,7 +19,7 @@
 
 	if ( 'toplevel_page_cuvita_cv' == $hook || 'cv_page_cuvita_theme_cv_sectionorder' == $hook || 'resume_page_cuvita_theme_cv_sectionorder' == $hook ) {
 		wp_enqueue_script('wp-media', get_template_directory_uri() . '/assets/js/wp-media.js', array('jquery'), $theme_version, true);
-		wp_enqueue_style('cuvita_cv', get_template_directory_uri() . '/assets/css/admin/cv.css', array(), $theme_version, 'all');
+		wp_register_script('cuvita_admin_collapsible', get_template_directory_uri() . '/assets/js/collapsible_field-form.js', array('jquery', 'jquery-ui-sortable', 'wp-tinymce'), $theme_version, true);
 		wp_enqueue_media();
 	}
 
